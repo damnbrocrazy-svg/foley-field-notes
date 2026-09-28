@@ -1,0 +1,21 @@
+{
+  "name": "foley-field-notes",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 8892",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1 --port 8892",
+    "studio": "sanity dev --host 127.0.0.1 --port 3338",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
+  },
+  "dependencies": {
+    "astro": "7.3.5",
+    "@sanity/client": "8.7.0",
+    "sanity": "6.16.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "styled-components": "^6.1.19"
+  }
+}
